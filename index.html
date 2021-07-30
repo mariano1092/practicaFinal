@@ -14,6 +14,7 @@
     <header>
         <nav>
             <ul>
+                <li class="nombre-nav"><span class="nombre">MARIANO</span><span class="apellido">GROSSO</span></li>
                 <li><a href="#">Código</a> </li>
                 <li><a href="#" target="_blank">Calculadora</a> </li>
                 <li><a href="#">Estudio</a> </li>
@@ -27,11 +28,12 @@
         </div>
     </header>
     <main>
+        <hr class="separador">
         <section class="contenido">
             <article class="seccion seccion-uno">
                 <h2>SOBRE MI</h2>
                 <div class="contenido-uno">
-                    
+
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit recusandae laborum et minima
                         aut
                         quas assumenda quia, culpa accusamus illum voluptas maiores illo debitis aperiam repellendus
@@ -50,24 +52,87 @@
                     <img src="./img/profile.jpg" alt="Imagen de Perfil">
                 </div>
             </article>
+            <hr class="separador">
             <article class="seccion seccion-dos">
                 <h2>ESTUDIANDO PROGRAMACIÓN</h2>
                 <div class="contenido-dos">
                     <img src="./img/study.jpg" alt="Imagen seccion estudio">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit recusandae laborum et minima aut
-                        quas assumenda quia, culpa accusamus illum voluptas maiores illo debitis aperiam repellendus placeat
-                        vitae deserunt nam neque! Delectus, ratione? Itaque labore quibusdam commodi nostrum officia quod
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit recusandae laborum et minima
+                        aut
+                        quas assumenda quia, culpa accusamus illum voluptas maiores illo debitis aperiam repellendus
+                        placeat
+                        vitae deserunt nam neque! Delectus, ratione? Itaque labore quibusdam commodi nostrum officia
+                        quod
                         mollitia vel adipisci accusamus nihil odit repudiandae id, quaerat iusto. Lorem ipsum dolor sit
-                        amet, consectetur adipisicing elit. Impedit recusandae laborum et minima aut quas assumenda quia,
-                        culpa accusamus illum voluptas maiores illo debitis aperiam repellendus placeat vitae deserunt nam
-                        neque! Delectus, ratione? Itaque labore quibusdam commodi nostrum officia quod mollitia vel adipisci
+                        amet, consectetur adipisicing elit. Impedit recusandae laborum et minima aut quas assumenda
+                        quia,
+                        culpa accusamus illum voluptas maiores illo debitis aperiam repellendus placeat vitae deserunt
+                        nam
+                        neque! Delectus, ratione? Itaque labore quibusdam commodi nostrum officia quod mollitia vel
+                        adipisci
                         accusamus nihil odit repudiandae id, quaerat iusto.
                     </p>
                 </div>
+                <hr class="separador">
             </article>
         </section>
+        <section class="seccion seccion-tres">
+            <div class="calculadora">
+                <table>
+                    <tr>
+                        <td colspan="4"><button id="result">0</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="add('1')">1</button></td>
+                        <td><button onclick="add('2')">2</button></td>
+                        <td><button onclick="add('3')">3</button></td>
+                        <td><button onclick="add('+')">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="add('4')">4</button></td>
+                        <td><button onclick="add('5')">5</button></td>
+                        <td><button onclick="add('6')">6</button></td>
+                        <td><button onclick="add('-')">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="add('7')">7</button></td>
+                        <td><button onclick="add('8')">8</button></td>
+                        <td><button onclick="add('9')">9</button></td>
+                        <td><button onclick="add('*')">*</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><button onclick="add('0')">0</button></td>
+                        <td colspan="2"><button onclick="add('/')">/</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button onclick="del()" class="borrar">BORRAR</button></td>
+                        <td><button onclick="add('.')">.</button></td>
+                        <td><button onclick="calc()">=</button></td>
+                    </tr>
+                </table>
+            </div>
+                <div class="contenido-tres">
+                    <h2>CALCULADORA</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit recusandae laborum et minima
+                        aut
+                        quas assumenda quia, culpa accusamus illum voluptas maiores illo debitis aperiam repellendus
+                        placeat
+                        vitae deserunt nam neque! Delectus, ratione? Itaque labore quibusdam commodi nostrum officia
+                        quod
+                        mollitia vel adipisci accusamus nihil odit repudiandae id, quaerat iusto. Lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit. Impedit recusandae laborum et minima aut quas assumenda
+                        quia,
+                        culpa accusamus illum voluptas maiores illo debitis aperiam repellendus placeat vitae deserunt
+                        nam
+                        neque! Delectus, ratione? Itaque labore quibusdam commodi nostrum officia quod mollitia vel
+                        adipisci
+                        accusamus nihil odit repudiandae id, quaerat iusto.
+                    </p>
+        </section>
+        <hr class="separador">
         <footer class="pie"></footer>
     </main>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
