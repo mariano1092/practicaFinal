@@ -1,3 +1,4 @@
+/* ------------------- CALCULADORA -------------------*/
 function setResult(value) {
     document.getElementById('result').innerHTML = value;
 }
